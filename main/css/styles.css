@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+.header-section{
+    display: flex;
+    background-color: rgba(0,0,0,0.9);
+    padding: 9px;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 30px;
+    position: fixed;
+    box-shadow: 5px 0px 50px 5px black;
+    width: 100%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: auto;
+    width: 50px; /* Adjust the size as needed */
+    margin-right: 5px; /* Space between logos */
+}
+.logo .first-logo{
+    width: 35px;
+    box-shadow: 0px 0px 10px 4px orange;
+    border-radius: 100%;
+    background: white;
+}
+.logo .second-logo{
+    width: 25%;
+}
+.headernav{
+    display: flex;
+    align-items: center;
+}
+.header-btn{
+    display: block;
+    gap: 10px;
+    align-items: center;
+}
+.header-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    margin-right: 11px;
+    padding: 7px;
+    transition: .3s ;
+    border-radius: 5px;
+}
+.header-btn a:hover{
+    background-color: orange;
+    color: black;
+    box-shadow: 0px 0px 10px orange;
+}
+.cont-1{
+    height: 100vh;
+    background-image: url(img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    display: block;
+    text-align: center;
+}
+.cont-1 .content-1 img{
+    width: auto;
+    height: 125px;
+    margin-top:200px;
+}
+.cont-1 .content-11 {
+    width: auto;
+    color: white;
+    margin-top: 50px;
+}
+.cont-1 .content-11 p{
+    font-size: 19px;
+}
+.cont-1 .content-11 h1{
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.cont-2{
+    height: 100vh;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+}
+.cont-2 .photo img{
+    width: 500px;
+    height: 50%;
+    margin-right: 50px;
+}
+.cont-2 .content-2 p{
+    width: 90%;
+    margin-left: 15px;
+    font-size: 20px;
+}
+.cont-2 .content-2 h1{
+    margin-bottom: 50px;
+    padding-left: 50px;
+}
+.content-2 span{
+    font-size: 50px;
+}
+.content-2 .name{
+    padding-top: 5px;
+    margin-left:100px;
+}
