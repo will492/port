@@ -64,7 +64,7 @@ body{
 }
 .cont-1{
     height: 100vh;
-    background-color: url(bg2.jpg);
+    background-color: url('bg2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
